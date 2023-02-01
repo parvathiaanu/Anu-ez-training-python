@@ -1,0 +1,65 @@
+THIRD DAY-CONTENT:
+  these are used to store mutiple values of different type ina single variable
+l=[1, 4 ,2.2,"anu"]
+  l[3]
+  l[2:3]
+  l[0:]
+  l[:3]
+  l[-1]
+append =adds the elmt at  last
+remove =dlts the elmt at last
+pop    =removes the elmnt  and returns the elmnt
+insert =add the elmnt at given position
+clear  = removes all the elmnts
+count  = gives the  how many times does the elmnt repeated in the list
+sort   = displays elmnt in ascndng odr
+copy   = copies the list nd returns the list
+extend =add all elmnts to another list
+reverse = displays elmnt in reverse order
+index   = adds data in particular index 
+           SET
+s={1,2,3,4}
+s.add(9)
+print(s)
+s.update([20,10])
+print(s)
+s.discard(3)
+print(s)
+s.remove(20)
+print(s)
+s1={10,20,30,40}
+s2={30,40,50,10}
+print(s1|s2)
+print(s1&s2)
+print(s1-s2)
+print(s2-s1)
+print(s2-s1)
+s3={1,2,3,4,5}
+s4={1,2,3}
+print(s3.issuperset(s4))
+print(s3^s4)# reaming elmnts after intersection)
+print(s3.symmetric_difference(s4))
+       output
+{1, 2, 3, 4, 9}
+{1, 2, 3, 4, 9, 10, 20}
+{1, 2, 4, 9, 10, 20}
+{1, 2, 4, 9, 10}
+{40, 10, 50, 20, 30}
+{40, 10, 30}
+{20}
+{50}
+True
+{4, 5}
+{4, 5}
+    TUPLE
+t=(4,3,4.4, 4,9.6, "ice","cream")
+print(type(t))
+print(t.count(4))
+print(t.index(4))
+   OUTPUT
+<class 'tuple'>
+2
+0
+  DICTIONARY 
+ it contains elments with two units key nd vaues 
+ keys must be unquie

@@ -1,0 +1,64 @@
+d={n:n*n for n in range(1,5)}
+print(d)
+  
+
+#calculating product price for 5 units
+old={'rice':6,'dal':120,'oil':150}
+new={product:price for (product,price) in old.items()}
+print(new)
+#with checks
+real={'siri':20, "dad":54, "mom":50}
+now={names:age for (names,age)in real.items() if(age>20)}
+print(now)
+
+
+#creat a list with  8 costomers names display a dict which has ctmr names along with discounts for them from a particular shop
+import random
+l=("anu", "vinu","paru","charu")#set list[]
+discount= random.randint(1,100)
+dict={name:discount for  name in l }
+print(dict)
+
+l=("anu", "vinu","paru","charu")
+dict={name:random.randint(1,100) for  name in l }
+print(dict)
+
+
+#from to list
+l=["anu", "vinu","paru","charu","thanu"]
+l2=[300,500,450,490,500]
+dict ={names:marks*(2/100) for(names,marks) in zip(l1,l2)}
+print(dict)
+
+
+import random
+names=list(map(str,input("names").split()))
+marks=[]
+for i in range(len(names)):
+    a=random.randint(100,500)*0.2
+    marks.append(a)
+new={names:marks for(names,marks) in zip(names,marks)}
+print(new)
+
+#string method
+s="anushaa"
+print(s.upper())
+print(s.lower())
+print(s.casefold())
+print(s.replace('h','a'))
+print(s.split('a'))
+print(s.strip())
+y="  anusha     anu   "
+print(y.strip())
+print(y.center(20,'#'))
+print(s.center(20,'#'))
+print(s.count('a'))
+print(y.count('a'))
+print(y.count('a',3,len(y)))
+print(s.count('a',3,len(s)))
+print(s.find('a',0,len(s)))
+print(s.istitle())
+print(s.rfind('h',0,len(s)))
+print(s.startswith('a',0,len(s)))
+print(s.startswith('hello',0,len(s)))
+

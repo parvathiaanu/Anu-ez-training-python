@@ -1,0 +1,60 @@
+ strings 
+s="anushaa"
+print(s.upper())
+print(s.lower())
+print(s.casefold())
+print(s.replace('h','a'))
+print(s.split('a'))
+print(s.strip())
+y="  anusha     anu   "
+print(y.strip())
+print(y.center(20,'#'))
+print(s.center(20,'#'))
+print(s.count('a'))
+print(y.count('a'))
+print(y.count('a',3,len(y)))
+print(s.count('a',3,len(s)))
+print(s.find('a',0,len(s)))
+print(s.istitle())
+print(s.rfind('h',0,len(s)))
+print(s.startswith('a',0,len(s)))
+print(s.startswith('hello',0,len(s)))
+  MUTABLE AND IMMUTABLE:
+mutable  : value can be changed  =set ,list,dict
+immutable : value cannot be changed =int,float,tuple
+x=200
+print(id(x))
+x=x+1
+print(id(x))  output:140705554889736
+                     140705554889768
+l=[1,2,3]
+print(id(l))
+l.append(5)
+print(id(l)) output:2096399884288
+                    2096399884288
+
+l=['a','e','i','o','u']
+s=input("string")
+count=0
+for i in s:
+    for j in l :
+        if(i==j):
+         count = count+1
+print(count)  
+    
+    
+
+math modules 
+import math
+x=12.63
+print(math.ceil(x))
+print(math.floor(x))
+print(math.sqrt(x))
+print(math.factorial(5))
+print(math.pow(2,3))
+print(math.fmod(10,3))
+a,b=divmod(10,3)
+print(a,b)
+
+
+

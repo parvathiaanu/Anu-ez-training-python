@@ -1,0 +1,43 @@
+RANDOM MODULE 
+import random as r
+x= "i love u "
+print(r. sample(x,3))# prints any three chars
+
+a=[1,2,3,4,5]
+r.shuffle(a)
+print(a)# prints shuffled list only for list 
+
+print(r.choice(a))
+b="hello world"
+print(r.choice(a))
+print(r.choice(b)) #prints  random char  in list or string  only one unlike sample
+
+
+c=r.random()
+print(c) 
+print(r.randint(20,30))#gives int random
+
+print(r.choices(a,k=3))# default k  now works like sample
+#print(r.choices(a,k=10))
+print(r.choices(b,k=10))
+
+print(r.uniform(20,30))#gives float randomly
+
+y=dir(r)
+print(y)#gives all functions in modules
+    FUNCTIONS
+ classifications 
+1. pre defined 
+2. user defined 
+ for code re useability we use functions let's say we want to use particular function multiple times in our
+ prgm instead of
+ writting  the same code multiple times  we can  write it once include that inside a function and can call the function where ever 
+ we need it
+  TYPES 
+ functions without argument and without written value 
+ functions without argument with return value 
+ function with argument and with return value 
+ function with argument   and without return 
+    RECURSIVE FUNCTION
+ a function which calls itself is known as recurisve function
+concept called recursion

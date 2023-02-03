@@ -1,0 +1,78 @@
+#lemons prgm using func 1
+# find factors of the given no using func type 2
+# print multi table of the given no using func type 3
+# findout sum digits of the given no  using type 4
+
+
+#one
+def lemon():
+    n=int(input("enter:"))
+    if n>21:
+       print(n-21)
+    elif n<21:
+       print(21-n)
+    else:
+       print("enough")
+lemon()
+#two
+def fact():
+    n=int(input("enter:"))
+    for i in range(1,11):
+        if(n%i==0):
+            print(i)
+    return(i)
+fact()
+
+#three
+def table(n):
+    for i in range (1,10):
+     print( n ,'x' ,i ,'=', n*i)
+table(5)
+
+#four
+def digit(s):
+    sum=0
+    for i in s:
+       sum=sum+ int(i)
+    return(sum)
+n=digit("123")
+print(n) 
+
+
+#returning more than one
+def more(a,b):
+    add=a+b
+    sub=a-b
+    return(add,sub)
+s,d=more(20,30)
+print(s)
+print(d)
+
+# neon number
+def neon():
+    n= int(input("enter"))
+    m=n*n
+    z=str(m)
+    print(type(z))
+    c=0
+    for i in z:
+     c=c+int(i)
+     if (n==c):
+         count=1
+     else:
+          count=0
+    if(count==1):
+        print("neon")
+    else:
+       print("not neon")
+         
+neon()
+#varaible length
+def sum(*a):
+    c=0
+    for i in a:
+        c=c+i
+    print(c)
+sum(10,20,30,40)"""
+        
+

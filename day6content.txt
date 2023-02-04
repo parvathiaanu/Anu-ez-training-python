@@ -1,0 +1,16 @@
+EXCEPTION HANDILING
+when there is an exception the developer doesn't want interption or disturabance in the program to achive 
+this we use exception handling
+OOPS OBJECT ORIENTED PROGRAMMING STRUCTURE 
+it is an effcient concept used in all bject oriented prgming languages like java and py
+ for multiple reasons we use opps concept  for example code reuseability  data security and hide code 
+class: it's a blue print exmpl
+obj : it's a thing created based on class 
+ note: one class can create multiple objs 
+EXAMPLE: birds =class 
+              crow,dove....
+         laptops= class
+             mac , dell, microsoft,hp....
+dudeer=double underscore
+ constructor method
+init gives how many units are in class

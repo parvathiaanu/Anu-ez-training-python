@@ -1,0 +1,38 @@
+#constructor method
+class emp:
+    def __init__(self,name,roll,age):
+        self.roll=roll
+        self.name=name
+        self.age=age
+    def display(self):
+        print("roll:  %d\nname: %s \nage: %d"%(self.roll,self.name,self.age))
+
+emp1=emp("anu",4,100)
+emp2=emp("paru",5,160)
+emp3=emp("jimin",1,24)
+
+emp1.display()
+emp2.display()
+emp3.display()"""
+
+
+#varable and variable class in method 
+
+class computer():
+    a=12
+    b=10
+    print("var insibe the class",a)
+
+    def config(self):
+        c=100
+        print("yes")
+        print("var inside method",c)
+        print("instance varhp",self.b)
+
+dell=computer()
+print(dell.a)
+print(dell.a+dell.b)
+hp=computer()
+print("dell",dell.a)
+dell.config()
+hp.config()

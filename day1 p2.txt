@@ -1,0 +1,73 @@
+LAMBDA FUNCTION:
+lambda function is  called as anonymous function  when we want to function concept without using 
+function name there we apply concept of lamba function
+
+
+OOPS
+4 pillars of opps:
+ABSTRACTION: Hiding the implementation part showing what is requried forthe users 
+             example :exe file 
+             we can make class or method as abstract ,opposite to abstract is concrete 
+ENCAPSULATION:
+             PUBLIC:one class  info can be accesed by any other class
+             PRIVATE:can be used where it is declared(no inherintance class)
+             PROTECTED: can be accesed only where it is declared whichever class declared from this also can be accesed
+             example:
+               a=public
+              __b=private ,double underscores
+              _c=protected ,single underscores
+INHERTIANCE: base or main class and derived class
+             example base is parent class, derived class is child class
+             DERIVED CLASS WILL INHERIT THE PROPERTIES OF BASE CLASS
+        TYPES:
+          Single , mutiple ,multi-level,hirerchal,hybrid inheritance
+POLYMORPHISM:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

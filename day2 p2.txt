@@ -1,0 +1,55 @@
+polymorphism
+
+one item or same item used for different purpose 
+types:
+1.over loading ,
+a.operator over loading : same operator for different purpose
+b.method over loading:same method calling
+2. over riding:if a method is defective or cannot be used or cannot be used inside dervird class it will take it from it's base or parent class.
+
+
+                                                     DATA STRUCTURES
+                                     HELPS TO WRITE EFFICENT PROGRAMS 
+ LINEAR AND NON-LINEAR:
+arrays                    
+linked list
+stack
+queue
+matrix are linear 
+.......non linear  non sequential style requried 
+STATIC AND DYNAMIC:
+list stack and queue are  dynamic:size is not fixed 
+arrays are static: size is fixed 
+LINKEDLIST:as the name says the items  linked with another like a train 
+types: single ,double,circular
+every data in linked list is reffered as node and it will have two segments (i.e data and address)
+last node alwats has zero as add res
+CREATING A LINKED LIST:
+step1: create the node
+step2:partition the node with two segments data and none
+step3: add value into the blank node 
+step 4: mark the node as head 
+step5: create thenext node  by folloeing the adove steps 
+step6: eatablish link between first node and the second node
+
+DISPLAY ING LINKED LIST:
+traversal is requried from the first node till tail node inorder to display exisiting linked list.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
